@@ -31,8 +31,8 @@ language = "Python"
 cat = name + " is studying " + course + " and learning " + language
 print(cat)
 
-fmr1 = "My name is {fname}, I am studying {course} and learning {language}"
-print(fmr1.format(fname=name, course=course, language=language))
+former1 = "My name is {fname}, I am studying {course} and learning {language}"
+print(former1.format(fname=name, course=course, language=language))
 
 while True:
     try:
