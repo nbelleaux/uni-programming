@@ -46,3 +46,5 @@ elif age > 130:
     print("Please enter a valid age, try again")
 else:
     print("You are an adult.")
+
+print(question + " — " + answer)
