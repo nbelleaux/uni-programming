@@ -42,5 +42,7 @@ if age < 18:
     print("You are a child.")
 elif age >= 18 and age <= 21:
     print("You are a young adult.")
+elif age > 130:
+    print("Please enter a valid age, try again")
 else:
     print("You are an adult.")
