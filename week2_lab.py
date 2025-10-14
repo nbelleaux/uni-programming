@@ -22,8 +22,10 @@ print(type(question))
 
 answer = "Variables do not have fixed types, they are determined at the runtime." # string variable to store an answer
 
+print(question + " — " + answer)
+
 name = "nat"
-course = "BSc Computer Science (Cybersecurity, Networks & Forenics)"
+course = "BSc Computer Science (Cybersecurity, Networks & Forensics)"
 language = "Python"
 
 cat = name + " is studying " + course + " and learning " + language
@@ -47,4 +49,4 @@ elif age > 130:
 else:
     print("You are an adult.")
 
-print(question + " — " + answer)
+
